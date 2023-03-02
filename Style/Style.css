@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container-card {
+    border: 1px hsl(30, 38%, 92%) solid;
+}
