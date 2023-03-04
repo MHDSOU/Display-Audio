@@ -7,8 +7,13 @@
 
 .main-container {
     background-image: url(../images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 50%;
+    background-color: hsl(225, 100%, 94%);
     display: flex;
     width: 100%;
+    height: 20%;
     min-height: 100vh;
     align-items: center;
     justify-content: center;
@@ -51,10 +56,11 @@
 #third-item {
     padding: 0.5rem 1.5rem;
     background-color: hsl(225, 100%, 98%);
+    border-radius: 0.75rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
     margin-top: 1.5rem;
 }
 
@@ -75,6 +81,12 @@
 
 #third-item a {
     cursor: pointer;
+    margin-left: 3rem;
+    font-size: 0.875rem;
+}
+
+#third-item a:hover {
+    color: hsl(224, 23%, 55%);
 }
 
 #fourth-item {
@@ -97,6 +109,11 @@
     font-weight: 700;
 }
 
+#fourth-item button:hover {
+    background-color: hsl(223, 47%, 23%);
+
+}
+
 #fifth-item {
     margin-top: 1.5rem;
 }
@@ -111,4 +128,8 @@
     background-color: hsl(225, 100%, 98%);
     color: hsl(224, 23%, 55%);
     cursor: pointer;
+}
+
+#fifth-item button:hover {
+    color: black;
 }
